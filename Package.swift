@@ -23,11 +23,11 @@ let package = Package(
   dependencies: [
     .package(
       name: "abseil",
-      url: "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/abseil-cpp-SwiftPM.git",
       "0.20200225.3" ..< "0.20200226.0"
     ),
     .package(name: "BoringSSL-GRPC",
-      url: "https://github.com/firebase/boringssl-SwiftPM.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/boringssl-SwiftPM.git",
       "0.7.1" ..< "0.8.0"
     ),
   ],
